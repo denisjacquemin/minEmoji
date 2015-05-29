@@ -36,7 +36,7 @@ THE SOFTWARE
 	regx_arr = null;
 	var minEmoji = function(s){
 		return s.replace(regx, function (a, b) {
-			return '<img src="img/'+emoji[b]+'.png" width="20" height="20">';
+			return '<img src="img/'+emoji[b]+'.png" width="40" height="40">';
 		});
 	}
 	// Make minEmoji globally available.
